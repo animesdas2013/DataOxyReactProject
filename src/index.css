@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.menu {
+  height: 76px;
+  background-color: rgb(10, 23, 59);
+  width: 100%;
+  padding-top: 5px;
+  text-align: center;
+}
+
+.menu nav ul {
+  padding: 8px;
+  margin: 0;
+  margin-left: 4rem;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* This centers the items horizontally */
+}
+
+.menu nav ul li {
+  margin: 0 1rem; /* Adjust this for spacing between items */
+  display: flex;
+  align-items: center; /* Vertically align items */
+}
+
+.menu nav ul li img {
+  height: 28px; /* Ensure a consistent height for images */
+  width: auto; /* Maintain aspect ratio */
+  display: block;
+}
+
+.menu nav ul li .nav {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  margin-left: -19px; /* Remove individual margin to control spacing globally */
+  padding: 5px 7px;
+}
+
+.menu nav ul li .nav-button {
+  background: rgb(10, 119, 241);
+  color: white;
+  padding: 10px;
+  width: 5rem;
+  border: none;
+  cursor: pointer;
+  display: block; /* Makes the button behave consistently with other items */
+}
+
+.menu nav ul li .nav:hover {
+  color: rgb(133, 133, 186);
+  transform: scale(1.1); 
+  transition: 1s;
+}
